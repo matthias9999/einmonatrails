@@ -66,7 +66,7 @@ Omrails::Application.configure do
   # config.active_record.auto_explain_threshold_in_seconds = 0.5
 
   # in production :host should be updated to the actual location
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'http://pure-tor-9091.herokuapp.com/' }
 
   # Paperclip should use Amazon S3 on Heroku
   config.paperclip_defaults = {
