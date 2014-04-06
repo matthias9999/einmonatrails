@@ -17,3 +17,5 @@
 
 # Ignore Paperclip uploaded files
 #/public/system
+
+/config/environments/paperclip_prod.rb
